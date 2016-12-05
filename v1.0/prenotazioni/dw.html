@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>login</title>
+</head>
+<body bgcolor= #0099FF><center>
+Per continuare oltre devi registrarti o accedere!
+<table border="1">
+    <tr>
+       <td>Registrati:</td>
+       <td>Accedi:</td>
+   </tr>
+ 
+   <tr>
+      <td>
+      <form   id="form1" name="form1" action="reg.php" method="post" TARGET = "giu">
+   
+          <p>
+          <label for="text">Mail: </label><br>
+     <input name="mail" type="text" required id="mail"></p>
+        <p>
+        <p>
+          <label for="text">Nome e Cognome: </label><br>
+     <input name="nome" type="text" required id="nome"></p>
+        <p>
+      <label for="text">Password: </label><br>
+        <input name="psw" type="text" required id="psw"></p><br>Durante la registrazione la password e' visibile per evitare errori!
+         
+        
+        <center><input type="submit" name="submit" id="submit" value="Conferma Registrazione"  ></center>
+        
+
+</form>
+      
+      </td>
+      <td>
+        <form   id="form2" name="form2" action="log.php" method="post" TARGET = "giu">
+   
+          <p>
+          <label for="text">Mail: </label><br>
+     <input name="mail" type="text" required id="mail"></p>
+        <p>
+      <label for="text">Password: </label><br>
+        <input name="psw" type="password" required id="psw"></p>
+        <br>Dopo afer effettuato il login potrai prenotare fino a un <br>massimo di 10 libri! Ti ricordiamo che i libri prenotati<br> vanno ritirati entro e non oltre <a href="regolamento.php">due aperture</a>!
+         <br>
+        <center><input type="submit" name="submit" id="submit" value="Accedi"  ></center>
+        
+
+</form>
+      
+      
+      </td>
+   </tr>
+</table>
